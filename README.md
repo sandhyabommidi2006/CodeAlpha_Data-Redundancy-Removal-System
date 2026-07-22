@@ -18,6 +18,11 @@ The **Data Redundancy Removal System** is a Flask-based web application develope
 
 ## Features
 
+Duplicate Email Detection
+Duplicate Phone Detection
+Data Validation
+Delete Records
+Responsive User Interface
 
 ---
 
@@ -31,7 +36,8 @@ The **Data Redundancy Removal System** is a Flask-based web application develope
 
 ---
 
-##Project Objective
+## Project Objective
+
 To improve database accuracy and efficiency by identifying and preventing redundant data entries.
 
 How to Run
