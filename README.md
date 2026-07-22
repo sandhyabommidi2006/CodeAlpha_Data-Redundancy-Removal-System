@@ -49,7 +49,7 @@ To improve database accuracy and efficiency by identifying and preventing redund
 
 1. Install Flask
 2. Run app.py
-3. Open http:
+3. Open http:http://127.0.0.1:5000/
 
 ## Live Demo
 
