@@ -53,8 +53,8 @@ To improve database accuracy and efficiency by identifying and preventing redund
 
 ## Live Demo
 
-![Demo](Demo.mp4)
+![Demo](Demo.mp4) LinkedIn 
 
 ## Cloud Deployment
 
-The application is deployed on PythonAnywhere, enabling remote access through the internet and demonstrating practical cloud computing concepts such as cloud hosting, centralized data management, and web application deployment.
+The application is deployed on Python anywhere,enabling remote access through the internet and demonstrating practical cloud computing concepts such as cloud hosting, centralized data management, and web application deployment.
