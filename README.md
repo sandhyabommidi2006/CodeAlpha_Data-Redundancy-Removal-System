@@ -40,12 +40,15 @@ Responsive User Interface
 
 To improve database accuracy and efficiency by identifying and preventing redundant data entries.
 
-How to Run
-Install Flask
-Run app.py
-Open http:
-Live Demo
+## How to Run
+
+1. Install Flask
+2. Run app.py
+3.Open http:
+
+## Live Demo
 
 
-Cloud Deployment
+## Cloud Deployment
+
 The application is deployed on PythonAnywhere, enabling remote access through the internet and demonstrating practical cloud computing concepts such as cloud hosting, centralized data management, and web application deployment.
