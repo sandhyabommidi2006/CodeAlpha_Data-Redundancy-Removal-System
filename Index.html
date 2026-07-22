@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Database Records</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>☁️ Data Redundancy Removal System</h1>
+
+    <!-- Dashboard -->
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total Records</h3>
+            <p>{{ total }}</p>
+        </div>
+
+        <div class="card">
+            <h3>Unique</h3>
+            <p>{{ unique }}</p>
+        </div>
+
+        <div class="card">
+            <h3>Duplicate Attempts</h3>
+            <p>{{ duplicate }}</p>
+        </div>
+
+        <div class="card">
+            <h3>False Positive</h3>
+            <p>{{ false_positive }}</p>
+        </div>
+
+    </div>
+
+    <!-- Form -->
+
+    <div class="form-box">
+
+        <form method="POST">
+
+            <input
+                type="text"
+                name="name"
+                placeholder="Enter Name"
+                required>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter Email"
+                required>
+
+            <input
+                type="text"
+                name="phone"
+                placeholder="Enter Phone Number"
+                required>
+
+            <button type="submit">
+                Add Record
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- Message -->
+
+    {% if message %}
+
+    <div class="{{ message_class }}">
+
+        {{ message }}
+
+    </div>
+
+    {% endif %}
+
+    <a href="/records" class="btn">
+        View Database Records
+    </a>
+
+</div>
+
+</body>
+
+</html>
