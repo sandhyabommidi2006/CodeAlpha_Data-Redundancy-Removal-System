@@ -19,10 +19,15 @@ The **Data Redundancy Removal System** is a Flask-based web application develope
 ## Features
 
 Duplicate Email Detection
+
 Duplicate Phone Detection
+
 Data Validation
+
 Delete Records
+
 Responsive User Interface
+
 
 ---
 
@@ -44,7 +49,7 @@ To improve database accuracy and efficiency by identifying and preventing redund
 
 1. Install Flask
 2. Run app.py
-3.Open http:
+3. Open http:
 
 ## Live Demo
 
