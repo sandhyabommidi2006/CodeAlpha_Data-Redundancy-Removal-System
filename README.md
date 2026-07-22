@@ -53,6 +53,7 @@ To improve database accuracy and efficiency by identifying and preventing redund
 
 ## Live Demo
 
+![Demo](Demo.mp4)
 
 ## Cloud Deployment
 
